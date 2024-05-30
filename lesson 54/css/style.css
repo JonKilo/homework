@@ -1,0 +1,27 @@
+body{
+    background-color: gray;
+}
+.white{
+    position: fixed;
+    left: 50%;
+    right: 50px;
+    bottom: 100px;
+    background-color: #fff;
+    color: #fff;
+    border-radius: 15px;
+    height: 100px;
+    text-align: center;
+}
+
+.red{
+    position: absolute;
+    left:55%;
+    right: 50px;
+    bottom: 150px;
+    background-color: red;
+    color: #fff;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
