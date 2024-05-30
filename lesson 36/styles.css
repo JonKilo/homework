@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+.jt-cls{
+    overflow: auto;
+    height: 500px;
+    background-color: gray;
+    border-top-left-radius: 30px;
+    padding: 5px;
+}
+
+.d1{
+    display: inline-block;
+    width: 300px;
+    padding: 20px; 
+    margin: 5px 10px 10px 3px;
+    box-shadow: inset 0px 0px 3px 3px black;
+    border-radius: 15px;
+    background-color: #D1BC8A;
+}
