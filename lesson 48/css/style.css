@@ -1,0 +1,87 @@
+body{
+    background-image: url(img/fon.jpg);
+    background-repeat: no-repeat;
+}
+
+.reg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    width: 350px;
+    border: 1px solid gray; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.7); 
+    border-radius: 10px;  
+    padding: 25px; 
+    
+}
+
+input{
+    border: 1px solid black;
+    border-radius: 5px;
+    min-width: 10px;
+    margin: 0 70px 0 0 ;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    margin: 0 0 30px 0;
+    font-family: "Montserrat Alternates"
+}
+
+label{
+    font-family: "Montserrat Alternates"
+}
+
+/* Все input-ы */
+
+#nickname{
+    width: 300px;
+}
+#inputEmail{
+    width: 300px;
+}
+
+
+#password-input{
+    width: 300px;
+}
+
+#password-input-too{
+    width: 300px;
+}
+
+
+/* Почта */
+
+.email{
+    margin: 20px 0 0 0;
+}
+
+/* Пароль */
+
+.password{
+    margin: 20px 0 0 0;
+}
+
+.password-too{
+    margin-top: 20px;
+}
+
+/* Создать */
+
+.create{
+    margin: 35px 0 20px 0;
+}
+
+.create-button{
+    width: 300px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    font-family: "Montserrat Alternates"
+}
