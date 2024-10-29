@@ -1,0 +1,626 @@
+:root {
+    --about-text-color: #797C86;
+}
+
+.about__cards{
+    display: flex;
+    gap: 10px;
+    position: relative;
+    bottom: 60px;
+}
+
+
+
+.cards__first_column{
+    display: flex;
+    gap: 10px;
+}
+
+.cards__second__column{
+    display: flex;
+    gap: 10px;
+}
+
+.card{
+    position: relative;
+    top: 130px;
+    left: 20px;
+    width: 200px;
+    height: 107px;
+    border: 1px solid #1c1c21;
+    border-radius: 12px;
+    background: #0e0e10;
+    padding: 20px 24px 20px 24px;
+}
+
+
+.h2__card{
+    color: #fff;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.p__card{
+    color: #797C86;
+    font-size: 14px;
+}
+
+/* ==============================================w */
+
+
+
+.bio__title{    
+    color: var(--about-text-color);
+    font-weight: 600;
+    font-size: 34px;
+    margin: 0px 0px 30px 0px;
+}
+
+.bio__text{
+    color: var(--about-text-color);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+/* ======================================================================================== */
+
+.journey__timeline{
+    display: flex;  
+}
+
+
+
+.year__card{
+    width: 625px;
+    height: 212px;
+    box-sizing: border-box;
+    border: 1px solid var(--text-color);
+    border-radius: 10px;
+    background: #0e0e10;
+    margin: 0px 0px 20px 10px;
+    padding: 40px;
+}
+
+.h2__year{
+    color: var(--about-text-color);
+    font-weight: 600;
+    font-size: 34px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================================================================================== */
+.main__testimonials{
+    margin: 0px 0px 153px 0px;
+}
+
+.reviews__list{
+    display: flex;
+    gap: 30px;
+}
+
+.reviews__item{
+    width: 410px;
+    height: 300px;
+    border: 1px solid var(--text-color);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.reviews__stars{
+    margin: 30px 0px 30px 0px;
+}
+
+.reviews__p{
+    color: #E5E5E7;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.reviews__socials-container{
+    display: flex;
+}
+
+.h2__title{
+    color: #E5E5E7;
+    font-size: 18px;
+}
+
+.h3__subtitle{
+    color: #62646C;
+    font-size: 16px;
+}
+
+
+.socials__reviews{
+    position: relative;
+    bottom: 50px;
+    width: 240px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #070708;
+    border: 1px solid var(--text-color);
+    border-radius: 100px;
+}
+
+.damien__logo{
+    position: relative;
+    left: 700px;
+    width: 700px;
+    height: auto;
+}
+
+.slider__button-testimonials {
+    position: relative;
+    top: 120px;
+    left: 100px;
+    width: 124px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #070708;
+    border: 1px solid var(--text-color);
+    border-radius: 100px;
+}
+
+.headers__list-testimonials {
+    display: flex;
+    gap: 15px;
+}
+
+.headers__item-testimonials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--text-color);
+    border-radius: 100px;
+    padding: 12px 18px 7px 18px;
+}
+
+.testimonials__clients{
+    position: relative;
+    top: 165px;
+    right: 620px;
+}
+
+@media screen and (max-width: 8640px){
+    .h5__top {
+        color: #797C86;
+        position: relative;
+        top: 140px;
+        left: 43px;
+    }
+
+    .top__title {
+        position: relative;
+        top: 160px;
+        left: 200px;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 50px;
+    }
+
+    .main__headers {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0px 0px 0px 0px;
+    }
+
+
+    .main__subtitle {
+        margin-top: 210px;
+    }
+
+    .footer__inner {
+        border-left: 1px solid var(--text-color);
+        border-right: 1px solid var(--text-color);
+        height: 580px;
+    }
+
+    .footer__list {
+        position: relative;
+        top: 300px;
+        left: 240px;
+        transform: translate(-50%, -50%);
+        display: grid;
+        gap: 4vh 40px;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .burger{
+        display: none;
+    }
+
+    .burger__menu{
+        border: none;
+    }
+
+    .contact__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #797C86;
+    }
+    .contact__footer {
+        height: 100px;
+    }
+
+    .socials {
+        position: relative;
+        top: 15px;
+        left: 50px;
+        width: 240px;
+        height: 68px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        background-color: #070708;
+        border: 1px solid var(--text-color);
+        border-radius: 100px;
+    }
+    
+    .burger {
+        cursor: pointer;
+        display: none;
+        position: relative;
+        background: transparent;
+        width: 40px;
+        height: 26px;
+    }
+
+    .burger-menu{
+        position: relative;
+        left: 40px;
+        width: 60px;
+        height: 60px;
+        padding: 17px 10px 0px 10px ;
+        border-top-left-radius: 20%;
+    }
+
+    .about__title{
+        font-size: 48px;
+        font-weight: 600;
+        color: #fff;
+        
+    }
+
+    .hero__about{
+        position: relative;
+        top: 30px;
+    }
+}
+
+@media screen and (max-width: 1250px){
+    
+    .slider__button-testimonials{
+        top: 0px;
+        left: 0px;
+    }
+
+    .slider__button{
+        top: 0px;
+        left: 0px;
+    }
+
+    .slider__button-portfolio{
+        top: 0px;
+        left: 0px;
+    }
+
+    .button__box{
+        margin: 0px;
+    }
+}
+
+
+@media screen and (max-width: 970px){
+    .events__img {
+
+    }
+
+    .about__body{
+        display: block;
+    }
+
+    .portfolio__list{
+        display: block;
+    }
+
+    .reviews__list{
+        display: block;
+    }
+    
+    .reviews__item{
+        width: 400px;
+        height: 300px;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .main__headers {
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .container__damien{
+        position: relative;
+        right: 680px;
+    }
+
+    .damien__logo{
+        width: 400px;
+    }
+
+    .footer__title{
+        display: none;
+    }
+
+    .h5__footer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .about__img img{
+        width: 385px;
+        height: 350px;
+    }
+
+    .about__text{
+        margin: 20px 0px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 435px){
+    .table__line{
+        width: 400px;
+    }
+
+    .events__text{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 420px){
+    
+    .portfolio__card{
+        width: 350px;
+        height: 385px;
+        margin: 0px 130px 0px 0px;
+    }
+
+    .h4__portfolio{
+        left: 210px;
+    }
+
+    .reviews__item{
+        width: 345px;
+        height: 300px;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .socials__reviews{
+        display: none;
+    }
+
+    .about__contact{
+        display: block;
+    }
+
+    .about__download{
+        position: relative;
+        top: 100px;
+        right: 250px;
+    }
+
+    .about__text{
+        height: 900px;
+    }
+
+    .top__img{
+        position: relative;
+        right: 165px;
+        z-index: -100;
+    }
+
+    .h5__top {
+        color: #797C86;
+        position: relative;
+        top: 110px;
+        left: 80px;
+    }
+    
+    .top__title {
+        position: relative;
+        top: 160px;
+        left: 160px;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 50px;
+    }
+
+    .main__subtitle {
+        margin-top: 40px;
+    }
+
+    .headers__title{
+        line-height: 10px;
+    }
+
+    .footer__list {
+        position: relative;
+        top: 260px;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        display: grid;
+        gap: 4vh 40px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer__inner {
+        border-left: 1px solid var(--text-color);
+        border-right: 1px solid var(--text-color);
+        height: 500px;
+    }
+
+    .burger__menu{
+        border: 1px solid #1c1c21;
+    }
+    
+    .burger{
+        display: block;
+    }
+    
+    .acc__container {
+        display: block;
+    }
+
+    .acc {
+        width: 340px;
+        height: 70px;
+        margin: 0px 0px 10px 0px;
+    
+    }
+
+    .contact__inner {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: #797C86;
+    }
+
+    .contact__footer {
+        height: 190px;
+    }
+
+    .socials{
+        left: 0px;
+        margin: 20px 0px 20px 0px;
+    }
+
+    .copyright{
+        left: 30px;
+    }
+
+    .burger-menu{
+        border: 1px solid var(--text-color);
+    }
+
+}
+
+@media screen and (max-width: 380px){
+
+    .about__img img{
+        width: 350px;
+        height: 320px;
+    }
+
+    .table__line{
+        width: 350px;
+    }
+
+    .events__text{
+        width: 350px;
+    }
+
+    .hero__img {
+        display: none;
+    }
+
+    .hero__box  {
+        background-image: url(/img/header__top-img/Image-mob.png);
+        background-repeat: no-repeat;
+        width: 357px;
+        height: 236px;
+        position: relative;
+        right: 5px;
+        bottom: 490px;
+    }
+
+    .hero__about{
+        position: relative;
+        top: 265px;
+    }
+
+    .hero__top{
+        margin: 0px 0px 420px 0px;
+    }
+
+    .journey__timeline{
+        display: block;
+    }
+
+    .about__cards{
+        display: flex;
+        gap: 10px;
+        position: relative;
+        top: 150px;
+        right: 20px;
+    }
+
+    .cards__first_column{
+        display: block;
+    }
+    
+    .cards__second__column{
+        display: block;
+    }
+
+    .card{
+        position: relative;
+        top: 130px;
+        left: 20px;
+        width: 170px;
+        height: 127px;
+        border: 1px solid #1c1c21;
+        border-radius: 12px;
+        background: #0e0e10;
+        padding: 10px 14px 10px 14px;
+        margin: 0px 0px 20px 0px;
+    }
+
+    .year__card{
+        width: 330px;
+        height: 195px;
+    }
+
+    .p__year{
+        font-size: 12px;
+    }
+
+
+    .about__title{
+        font-size: 28px;
+        font-weight: 600;
+        color: #fff;
+    }
+}

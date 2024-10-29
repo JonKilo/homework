@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/x-icon" href="img/icons/logo/404.png" rel="shortcut icon">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <title>404</title>
+    <style>
+        body {
+            font-family: 'Manrope';
+            color: #fff;
+            text-align: center;
+            align-items: center;
+        }
+
+        .bg-video {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -100;
+        }
+
+        .h1__404 {
+            position: absolute;
+            top: 40%;
+            left: 38%;
+            font-size: 70px;
+        }
+
+        .p__404 {
+            position: absolute;
+            top: 50%;
+            left: 28%;
+            font-size: 40px;
+        }
+
+        @media screen and (max-width: 970px) {
+            .h1__404 {
+                position: absolute;
+                top: 40%;
+                left: 25%;
+                font-size: 70px;
+            }
+
+            .p__404 {
+                position: absolute;
+                top: 50%;
+                left: 10%;
+                font-size: 40px;
+
+            }
+        }
+
+        @media screen and (max-width: 500px) {
+            .h1__404 {
+                position: absolute;
+                top: 35%;
+                left: 5%;
+                font-size: 70px;
+            }
+
+            .p__404 {
+                position: absolute;
+                top: 52%;
+                left: 3%;
+                font-size: 40px;
+            }
+        }
+
+        @media screen and (max-width: 375px) {
+            .h1__404 {
+                position: absolute;
+                top: 25%;
+                left: 0%;
+                font-size: 70px;
+            }
+
+            .p__404 {
+                position: absolute;
+                top: 50%;
+                left: 3%;
+                font-size: 40px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <video autoplay muted loop class="bg-video">
+        <source src="media/monkey404.mp4" type="video/mp4">
+    </video>
+
+    <h1 class="h1__404">
+        <b>ОШИБКА 404</b>
+    </h1>
+    <p class="p__404">
+        <b>К сожалению такой страницы не существует!</b>
+    </p>
+</body>
+
+</html>
